@@ -7,6 +7,8 @@ import { SiFirebase } from "react-icons/si";
 import { FaCss3 } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 
+    
+
 
 
 export default function Hero() {
@@ -18,24 +20,32 @@ export default function Hero() {
         sequence={[
           'Welcome To the world of Tech',
           1000,
-          'Welcome To the world of tech',
+          'Welcome To the world of Web',
           1000,
-          'Welcome To the world of tech',
+          'Welcome To the world of Android',
           1000,
-          'Welcome To the world of tech',
+          'Welcome To the world of Your Own',
           1000,
         ]}
-        speed={50} 
-        style={{ fontSize: '2em' }}
+        speed={300} 
+        style={{ fontSize: '64px' }}
         repeat={Infinity}
       />
+
+
     </h1>
+
+
         <p className="text-center pt-6 text-[#36485c] lg:text-[18px] lg:leading-7">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
           voluptate, voluptatumlestias fugit quibusdam consectetur adipisicing
           elit. Quisquam voluptate, voluptatumlestias fugit qu aperiam.
         </p>
+
+
         <div className="flex w-full pt-8 justify-center gap-x-6">
+
+
           <button className="bg-[#4328EB] w-1/2 py-4 px-8 rounded-[4px] text-white lg:w-fit">
             Download
           </button>

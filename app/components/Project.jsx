@@ -1,7 +1,10 @@
+"use client";
 import React from "react";
 import feature from "../../public/feature-1.svg";
 import check from "../../public/check.svg";
 import Image from "next/image";
+import {Snippet} from "@nextui-org/react";
+
 
 export default function Project() {
   return (
@@ -154,13 +157,27 @@ export default function Project() {
 
 
         </div>
+
+       
+
       </div>
 
 
 
 
 
+
+
+
+
+      <Snippet variant="bordered" color="success" className="text-center block mx-auto mt-[200px]">npm install portmohit</Snippet>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor autem. Ex, sapiente? Sapiente itaque labore ex quam dolor ipsum debitis optio doloremque delectus? Accusantium distinctio itaque tempore quia officia sequi eaque in, ipsum repudiandae reprehenderit? Commodi corporis repudiandae, cum non nam praesentium dicta delectus.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, inventore quidem. Asperiores debitis eaque esse aliquid incidunt dignissimos alias exercitationem iure adipisci. Iure, eligendi. Vel asperiores pariatur enim eligendi impedit?
+      </p>
+
       
     </div>
+
+
   );
 }
