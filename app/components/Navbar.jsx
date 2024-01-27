@@ -11,7 +11,7 @@ import {
   Link,
   Button,
 } from "@nextui-org/react";
-// import { AcmeLogo } from "./AcmeLogo.jsx";
+import Image from "next/image";
 
 const Navbar = () => {
   const menuItems = [
@@ -36,29 +36,29 @@ const Navbar = () => {
 
     <NavbarContent className="sm:hidden pr-3" justify="center">
       <NavbarBrand>
-        {/* <AcmeLogo /> */}
-        <p className="font-bold text-inherit">ACME</p>
+        <Image src="/logoPortfolio.png" width={50} height={50} alt="Acme Logo" />
+       <p className="font-bold text-inherit">Mohit.Dev</p>
       </NavbarBrand>
     </NavbarContent>
 
     <NavbarContent className="hidden sm:flex gap-4" justify="center">
       <NavbarBrand>
-        {/* <AcmeLogo /> */}
-        <p className="font-bold text-inherit">ACME</p>
+      <Image src="/logoPortfolio.png" width={50} height={50} alt="Acme Logo" />
+        <p className="font-bold text-inherit">Mohit.Dev</p>
       </NavbarBrand>
       <NavbarItem>
         <Link color="foreground" href="#">
-          Features
+          Project
         </Link>
       </NavbarItem>
       <NavbarItem isActive>
         <Link href="#" aria-current="page" color="warning">
-          Customers
+          About
         </Link>
       </NavbarItem>
       <NavbarItem>
         <Link color="foreground" href="#">
-          Integrations
+          Support
         </Link>
       </NavbarItem>
     </NavbarContent>

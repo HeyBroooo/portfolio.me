@@ -1,7 +1,6 @@
 "use client";
 import Image from 'next/image'
 import React from 'react'
-import Logo from '../../public/portblack.png'
 import {User} from "@nextui-org/react";
 
 export default function Footer() {
